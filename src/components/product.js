@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react'; // Must be imported for webpack to work
+import React, { lazy, Suspense } from 'react'; 
 import {useStore} from '../store';
 import Display from '../shared/Display';
 

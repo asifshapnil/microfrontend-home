@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react'; // Must be imported for webpack to work
+import React, { lazy, Suspense } from 'react'; 
 import './App.css';
 import Display from './shared/Display';
 import { useStore } from './store';
@@ -18,14 +18,7 @@ function App() {
         <Suspense fallback={<div>Loading Header...</div>}>
           <Header />
         </Suspense>
-        {/* <Suspense fallback={<div>Loading Auth...</div>}>
-          <Display condition={!state.isAuthenticated}>
-            <Auth />
-          </Display>
-          <Display condition={state.isAuthenticated}>
-            <Product />
-          </Display>
-        </Suspense> */}
+      
         <Routes>
           <Route path="/" element={<Navigate to="/product" />} />
           <Route path='/auth' element={<Auth />} />

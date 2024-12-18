@@ -1,4 +1,4 @@
-import React, { lazy, Suspense, useEffect } from 'react'; // Must be imported for webpack to work
+import React, { lazy, Suspense, useEffect } from 'react'; 
 import Display from '../shared/Display';
 import {useStore} from '../store';
 import { Navigate, useNavigate } from 'react-router-dom';

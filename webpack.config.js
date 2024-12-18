@@ -11,7 +11,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name]_bundle.js', // Name the entry chunk dynamically
         chunkFilename: '[name].[contenthash].js', // Use dynamic names for non-entry chunks
-        publicPath: '/', // Ensure publicPath is set correctly
+        publicPath: '/', 
     },
     devServer: {
         port: 3000,  

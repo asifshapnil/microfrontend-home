@@ -1,4 +1,4 @@
-import React from 'react'; // Must be imported for webpack to work
+import React from 'react'; 
 import { useStore } from '../store';
 import { Navigate } from "react-router-dom";
 
