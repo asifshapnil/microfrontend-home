@@ -48,9 +48,9 @@ module.exports = {
                 './Display': './src/shared/Display', 
             },
             remotes: {
-                "HeaderApp": "HeaderApp@http://localhost:3001/remoteEntry.js",
-                "AuthApp": "AuthApp@http://localhost:3003/remoteEntry.js",
-                "ProductApp": "ProductApp@http://localhost:3004/remoteEntry.js",
+                "HeaderApp": "HeaderApp@https://microfrontend-header-sandy.vercel.app/remoteEntry.js",
+                "AuthApp": "AuthApp@https://microfrontend-auth-10.vercel.app/remoteEntry.js",
+                "ProductApp": "ProductApp@https://microfrontend-product-plum.vercel.app/remoteEntry.js",
             },
             shared: {  
                 ...dependencies,  
